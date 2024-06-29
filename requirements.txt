@@ -1,0 +1,8 @@
+opencv-python
+segmentation-refinement
+colored
+progressbar
+h5py
+submitit
+timm
+pillow==9.5.0

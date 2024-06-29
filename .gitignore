@@ -1,0 +1,17 @@
+*.pth
+*.json
+*.pyc
+
+eval_output
+
+promptable_segmentation/data
+promptable_segmentation/datasets/coco
+
+whole_image_segmentation/ex_eval
+whole_image_segmentation/ex_train
+whole_image_segmentation/output
+
+# compilation and distribution
+*.egg-info/
+build/
+dist/
