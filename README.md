@@ -1,6 +1,6 @@
 # Segment Anything without Supervision
 
-Unsupervised SAM (UnSAM) is a 'segment anything' model for promptable and automatic whole-image segmentation which does not require human annotations. 
+Unsupervised SAM (UnSAM) is a "segment anything" model for promptable and automatic whole-image segmentation which does not require human annotations. 
 
 <p align="center"> 
   <img width="1301" alt="teaser_unsam" src="https://github.com/frank-xwang/UnSAM/assets/58996472/0c53071c-bdc8-4424-9e9e-40b8c8c31a18" align="center" >
@@ -8,11 +8,11 @@ Unsupervised SAM (UnSAM) is a 'segment anything' model for promptable and automa
 
 
 > [**Segment Anything without Supervision**](http://arxiv.org/abs/2406.20081)            
-> XuDong Wang, Jingfeng Yang, Trevor Darrell      
+> [XuDong Wang](https://frank-xwang.github.io/), [Jingfeng Yang](), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/)      
 > UC Berkeley            
 > Preprint            
 
-[[`arxiv`](http://arxiv.org/abs/2406.20081)] [[`colab (UnSAM)`](https://drive.google.com/file/d/1KyxbFb2JC76RZ1jg7F8Ee4TEmOlpYMe7/view?usp=sharing)] [[`colab (pseudo-label)`](https://drive.google.com/file/d/1aFObIt-xlQmCKk3G7dD8KQxaWhM_RTEd/view?usp=sharing)] [[`bibtex`](#citation)]             
+[[`project page`](https://people.eecs.berkeley.edu/~xdwang/projects/UnSAM/)] [[`arxiv`](http://arxiv.org/abs/2406.20081)] [[`colab (UnSAM)`](https://drive.google.com/file/d/1KyxbFb2JC76RZ1jg7F8Ee4TEmOlpYMe7/view?usp=sharing)] [[`colab (pseudo-label)`](https://drive.google.com/file/d/1aFObIt-xlQmCKk3G7dD8KQxaWhM_RTEd/view?usp=sharing)] [[`bibtex`](#citation)]             
 
 
 ## Updates
@@ -122,7 +122,7 @@ bash tools/{promptable, whole_image}_eval.sh
 
 #### Whole image segmentation
 UnSAM achieves the state-of-the-art results on unsupervised image segmentation, using a backbone of ResNet50 and training 
-with only 1% of SA-1B data. We show zero-shot unsupervised image segmentation performance on 6 different datasets, 
+with only 1% of SA-1B data. We show zero-shot unsupervised image segmentation performance on 7 different datasets, 
 including COCO, LVIS, ADE20K, Entity, SA-1B, Part-ImageNet and PACO.   
 <table><tbody>
 <!-- START TABLE -->
