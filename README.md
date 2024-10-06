@@ -10,7 +10,7 @@ Unsupervised SAM (UnSAM) is a "segment anything" model for promptable and automa
 > [**Segment Anything without Supervision**](http://arxiv.org/abs/2406.20081)            
 > [XuDong Wang](https://frank-xwang.github.io/), [Jingfeng Yang](), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/)      
 > UC Berkeley            
-> Preprint            
+> NeurIPS 2024            
 
 [[`project page`](https://people.eecs.berkeley.edu/~xdwang/projects/UnSAM/)] [[`arxiv`](http://arxiv.org/abs/2406.20081)] [[`colab (UnSAM)`](https://drive.google.com/file/d/1KyxbFb2JC76RZ1jg7F8Ee4TEmOlpYMe7/view?usp=sharing)] [[`colab (pseudo-label)`](https://drive.google.com/file/d/1aFObIt-xlQmCKk3G7dD8KQxaWhM_RTEd/view?usp=sharing)] [[`bibtex`](#citation)]             
 
@@ -281,14 +281,11 @@ If you have any general questions, feel free to email us at [XuDong Wang](mailto
 ## Citation
 If you find our work inspiring or use our codebase in your research, please consider giving a star ⭐ and a citation.
 ```
-@misc{wang2024segmentsupervision,
-      title={Segment Anything without Supervision}, 
-      author={XuDong Wang and Jingfeng Yang and Trevor Darrell},
-      year={2024},
-      eprint={2406.20081},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2406.20081}, 
+@article{wang2024segment,
+  title={Segment Anything without Supervision},
+  author={Wang, XuDong and Yang, Jingfeng and Darrell, Trevor},
+  journal={arXiv preprint arXiv:2406.20081},
+  year={2024}
 }
 ```
 
